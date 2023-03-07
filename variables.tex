@@ -1,0 +1,276 @@
+\documentclass[10pt]{extarticle}
+\usepackage{fancyvrb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage[a4paper, margin=1cm]{geometry}
+\usepackage{tgcursor}
+\newcommand\userinput[1]{\textbf{#1}}
+%\sloppy
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+{\Large \textbf{GroundControllerInputs}}
+ \begin{Verbatim}[baselinestretch=.9,commandchars=\\\{\}]
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{UTC_Time}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{DF_telemetry}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.\textbf{GCC_ControlFlags}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.\textbf{systemState}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.\textbf{trueAirspeed}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.altitude
+        logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.\textbf{altitude.value}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.\textbf{velocityPlaneGround}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.\textbf{distancePlaneGround}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.accelerationPlaneGround
+        logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.\textbf{accelerationPlaneGround.value}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.controlDemand
+        logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetry.\textbf{controlDemand.value}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{telemetryUTC_Time}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{DF_GCS_GCC_StateCommand}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.GCS_GCC_StateCommand
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{GCS_GCC_StateCommand.UTC_Time}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{GCS_GCC_StateCommand.commandFlag}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{GCS_GCC_StateCommand.data}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{DF_GCS_GCC_Command}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.GCS_GCC_Command
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{GCS_GCC_Command.UTC_Time}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{GCS_GCC_Command.commandID}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{GCS_GCC_Command.data}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{DF_winchData}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.winchData
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.winchID}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.state}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.ecode}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.alarm0}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.alarm1}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.alarm2}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.speed_demand}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.length_total}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.length_on_drum}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.tether_speed}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchData.tether_tension}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{DF_winchMotorData}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.winchMotorData
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchMotorData.alarms}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchMotorData.dc_voltage}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchMotorData.stator_freq}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchMotorData.rms_current}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchMotorData.active_power}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchMotorData.active_current}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchMotorData.torque}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchMotorData.actual_freq}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchMotorData.output_rms_voltage}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{winchMotorData.error_count}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{DF_telemetrySync}
+
+logData_FCC114_1.\underline{GroundControllerInputs}.packetData.telemetrySync
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{telemetrySync.systemState}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{telemetrySync.numberOfPackets}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{telemetrySync.packetIndex}
+    logData_FCC114_1.\underline{GroundControllerInputs}.packetData.\textbf{telemetrySync.syncData}
+\end{Verbatim}
+\newpage
+{\Large \textbf{NavigationData}}
+ \begin{Verbatim}[baselinestretch=.9,commandchars=\\\{\}]
+logData_FCC114_1.NavigationData.packetData.\textbf{navMode}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{UTC_Time}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{positionLLH}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{positionNED}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{velocityNED}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{rollPitchYaw}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{bodyRate}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{navAccel}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{bodyAccel}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{inertialAccel}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{windSpeed}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{gravityNED}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{heightAboveGround}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{heightAboveGroundRate}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{terrainPitchRoll}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{angleOfAttackOffset}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{sideSlipOffset}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{cosMatBodyToNav}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{pressureAltitudeOffset}
+
+logData_FCC114_1.\underline{NavigationData}.packetData.\textbf{angularAccel}
+\end{Verbatim}
+\newpage
+{\Large \textbf{ProcessedSensorData}}
+\begin{Verbatim}[baselinestretch=.9,commandchars=\\\{\}]
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{propulsionBatteryRemaining}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{airDataInterfaceHealth}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{trueAirspeed}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{equivalentAirspeed}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{dynamicPressure}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{inverseDynamicPressure}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{angleOfAttackValid}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{angleOfAttack}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{sideSlipValid}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{sideSlip}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{pressureAltitude}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{cableT}ension
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{autopilotVoltage}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoVoltage1}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoVoltage2}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{PPS_Pulse}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{highRangeAccelerometer}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{engineVoltage}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{engineCurrent}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{engineConsumption}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{engineDischarge}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{engineSwitch}
+
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.servoDeflections
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.stbdFlap}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.DF_portAileron}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.portAileron}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.DF_stbdAileron}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.stbdAileron}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.DF_portElevator}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.portElevator}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.DF_stbdElevator}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.stbdElevator}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.DF_rudder}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.rudder}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.DF_portFlap}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.portFlap}
+    logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{servoDeflections.DF_stbdFlap}
+	
+logData_FCC114_1.\underline{ProcessedSensorData}.packetData.\textbf{CPU_Temperature}
+\end{Verbatim}
+\newpage
+{\Large \textbf{ServoDemandFCC}}
+\begin{Verbatim}[baselinestretch=.9,commandchars=\\\{\}]
+logData_FCC114_1.ServoDemandFCC.packetData.demands
+    logData_FCC114_1.\underline{ServoDemandFCC}.packetData.\textbf{demands.flags}
+    logData_FCC114_1.\underline{ServoDemandFCC}.packetData.\textbf{demands.throttle}
+    logData_FCC114_1.\underline{ServoDemandFCC}.packetData.\textbf{demands.port_aileron}
+    logData_FCC114_1.\underline{ServoDemandFCC}.packetData.\textbf{demands.stbd_aileron}
+    logData_FCC114_1.\underline{ServoDemandFCC}.packetData.\textbf{demands.port_flap}
+    logData_FCC114_1.\underline{ServoDemandFCC}.packetData.\textbf{demands.stbd_flap}
+    logData_FCC114_1.\underline{ServoDemandFCC}.packetData.\textbf{demands.rudder}
+    logData_FCC114_1.\underline{ServoDemandFCC}.packetData.\textbf{demands.elevator}
+\end{Verbatim}
+\vspace{1cm}
+{\Large \textbf{SystemState}}
+\begin{Verbatim}[baselinestretch=.9,commandchars=\\\{\}]
+logData_FCC114_1.\underline{SystemState}.packetData.\textbf{currentState}
+
+logData_FCC114_1.\underline{SystemState}.packetData.\textbf{currentSubState}
+
+logData_FCC114_1.\underline{SystemState}.packetData.\textbf{previousState}
+
+logData_FCC114_1.\underline{SystemState}.packetData.\textbf{previousSubState}
+
+logData_FCC114_1.\underline{SystemState}.packetData.\textbf{transitionTaken}
+
+logData_FCC114_1.\underline{SystemState}.packetData.\textbf{stateFlags}
+
+logData_FCC114_1.\underline{SystemState}.packetData.\textbf{commandFlags}
+\end{Verbatim}
+\vspace{1cm}
+{\Large \textbf{WinchData}}
+\begin{Verbatim}[baselinestretch=.9,commandchars=\\\{\}]
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{winchID}
+
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{state}
+
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{ecode}
+
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{alarm0}
+
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{alarm1}
+
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{alarm2}
+
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{speed_demand}
+
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{length_total}
+
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{length_on_drum}
+
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{tether_speed}
+
+logData_FCC114_1.\underline{WinchData}.packetData.\textbf{tether_tension}
+\end{Verbatim}
+\newpage
+{\Large \textbf{WinchMotorData}}
+\begin{Verbatim}[baselinestretch=.9,commandchars=\\\{\}]
+logData_FCC114_1.\underline{WinchMotorData}.packetData.\textbf{alarms}
+
+logData_FCC114_1.\underline{WinchMotorData}.packetData.\textbf{dc_voltage}
+
+logData_FCC114_1.\underline{WinchMotorData}.packetData.\textbf{stator_freq}
+
+logData_FCC114_1.\underline{WinchMotorData}.packetData.\textbf{rms_current}
+
+logData_FCC114_1.\underline{WinchMotorData}.packetData.\textbf{active_power}
+
+logData_FCC114_1.\underline{WinchMotorData}.packetData.\textbf{active_current}
+
+logData_FCC114_1.\underline{WinchMotorData}.packetData.\textbf{torque}
+
+logData_FCC114_1.\underline{WinchMotorData}.packetData.\textbf{actual_freq}
+
+logData_FCC114_1.\underline{WinchMotorData}.packetData.\textbf{output_rms_voltage}
+
+logData_FCC114_1.\underline{WinchMotorData}.packetData.\textbf{error_count}
+\end{Verbatim}
+
+
+
+
+\end{document}
+
