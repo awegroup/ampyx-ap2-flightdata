@@ -1,6 +1,6 @@
 # Ampyx Power AP2 Flight Data
 
-The data set was recorded during a test flight of the Ampyx Power AP2 on 3 October 2017. It was used in [[1,2]](#References) for the validation of a fixed-wing reference model.
+The data set was recorded during a test flight of the Ampyx Power AP2 on 3 October 2017. It was used in [[1,2]](#References) for the validation of a fixed-wing reference model. The data was used, a.o. in [AWEBox](https://github.com/awebox/awebox/issues/65).
 
 ![](ampyx-ap2.jpg)
 
@@ -36,3 +36,9 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE.md
 and control. Renewable Energy Vol. 140, pp. 1004-1011, 2019. https://doi.org/10.1016/j.renene.2019.03.111
 
 [2] E.C. Malz: Airborne Wind Energy - to fly or not to fly? PhD Thesis, Chalmers University of Technology, 2020. https://research.chalmers.se/en/publication/519020
+
+[3] G. Licitra, J. Koenemann, A. Bürger, P. Williams, R. Ruiterkamp, M. Diehl: Performance assessment of a rigid wing Airborne Wind Energy pumping system. Energy Vol. 173, pp. 569-585, 2019. https://doi.org/10.1016/j.energy.2019.02.064
+
+## Acknowledgments
+
+The authors would like to express their thanks to the team of Ampyx Power for contributing this data to the research community and to Elena Malz for providing some Python source code snippets with additional explanation of the data. 
