@@ -24,6 +24,10 @@ Open plot_flight.py for more information on how to extract data. The complete li
  
 The time was recorded as [Unix time](https://en.wikipedia.org/wiki/Unix_time). The aircraft launches at time step 62775 and when converting this time to UTC we get to a launch time of 03-Oct-2017 11:23:27.
 
+## Additional resources
+
+A TU Delft PhD dissertation [4] was also based on dynamic simulations and flight control of the AP2. The software repository can be found in [5]. 
+
 ## Authors
 
 * **Roland Schmehl** - *Documentation* - [GitHub](https://github.com/rschmehl)
@@ -40,6 +44,10 @@ and control. Renewable Energy Vol. 140, pp. 1004-1011, 2019. https://doi.org/10.
 [2] E.C. Malz: Airborne Wind Energy - to fly or not to fly? PhD Thesis, Chalmers University of Technology, 2020. https://research.chalmers.se/en/publication/519020
 
 [3] G. Licitra, J. Koenemann, A. Bürger, P. Williams, R. Ruiterkamp, M. Diehl: Performance assessment of a rigid wing Airborne Wind Energy pumping system. Energy Vol. 173, pp. 569-585, 2019. https://doi.org/10.1016/j.energy.2019.02.064
+
+[4] S. Rapp: Robust Automatic Pumping Cycle Operation of Airborne Wind Energy Systems. Dissertation, TU Delft, 2021. https://doi.org/10.4233/uuid:ab2adf33-ef5d-413c-b403-2cfb4f9b6bae
+
+[5] S. Rapp: Scripts for AWE Control Design and Simulation. Version 1. 4TU.ResearchData. software. https://doi.org/10.4121/13172666.v1
 
 ## Acknowledgments
 
